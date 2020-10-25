@@ -5,8 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jest Playground</title>
 </head>
+
 <body>
-  <h1>Jest Playground</h1>
-  <script src='index.js'></script>
+  <h1>User's Jest Playground</h1>
+  <h2 id='header-info'></h2>
+  <form id='inputName'>
+    <label for='name'>Type your full name</label>
+    <input type='text/' id='name'>
+    <label for='age'>Type your age</label>
+    <input type='text/' id='age'>
+    <button type='submit'>Submit</button>
+  </form>
+
+  <script src='./dist/bundle.js'></script>
 </body>
 </html>

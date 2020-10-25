@@ -2,12 +2,8 @@ function sum(a, b) {
   return a + b;
 }
 
-function multiply(a, b) {
-  return a * b;
-}
+const time = 'now';
 
-function makeDog(name, breed) {
-  return { name, breed };
-}
+export { sum, time };
 
-module.exports = { sum, multiply, makeDog };
+// module.exports = sum;

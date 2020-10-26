@@ -1,5 +1,7 @@
+import sayName from './sayName.js';
+
 const { test, expect, describe } = require('@jest/globals');
-const sayName = require('../sayName');
+// const sayName = require('../sayName');
 
 describe.only('My suite of name tests', () => {
   test('says a name', () => {
